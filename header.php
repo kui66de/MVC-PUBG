@@ -9,6 +9,23 @@
         <link rel="stylesheet" href="css/main.css"/>
     </head>
     <body>
+        <header>
+            <nav class="navbar">
+                <center>
+                    <ul>
+                        <li><img src="images/logo1.png" id="logoimage"/></li>
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="media.php">Video</a></li>
+                        <li id="subM"><a href="weapons.php">overview</a>
+                            <ul class="sub">
+                                <li><a href="#weapons">Weapons</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </center>
+            </nav>
+        </header>
+    </body>
         
     
     
