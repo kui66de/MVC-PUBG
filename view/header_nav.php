@@ -5,7 +5,6 @@
         <ul>
             <li><img src="images/logo1.png" id="logoimage"/></li>
             <li><a href="index.php">Home</a></li>
-            <li><a href="media.php">Video</a></li>
             <li><a href="">Register</a></li>
             <?php foreach ($categories as $category) : ?>
                 <li>

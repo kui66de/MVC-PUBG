@@ -14,10 +14,10 @@
         </div>
 
         <div id="right_column">
-            <p><b>Base Damage:</b> $<?php echo $dmg; ?></p>
-            <p><b>Fire Rate:</b> <?php echo $rate; ?>%</p>
-            <p><b>Gun DPS:</b> $<?php echo $dps; ?>
-                 (Shots to kill $<?php echo $shotskill; ?>)</p>
+            <p><b>Base Damage:</b> <?php echo $dmg; ?></p>
+            <p><b>Fire Rate:</b> <?php echo $rate; ?></p>
+            <p><b>Gun DPS:</b> <?php echo $dps; ?>
+                 (Shots to kill <?php echo $shotskill; ?>)</p>
             <form action="<?php echo '../cart' ?>" method="post">
                 <input type="hidden" name="action" value="add">
                 <input type="hidden" name="weapon_id"
