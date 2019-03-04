@@ -10,7 +10,7 @@
             <a href="weapon_category">Weapons Catalog</a>
         </li>
         <li>
-            <a href='../users/login.php'>Log in</a>
+            <a href='login.php'>Log in</a>
         </li>
     </ul>
 </main>
