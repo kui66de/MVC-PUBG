@@ -1,6 +1,6 @@
 <?php
 // Include config file
-require_once "database.php";
+require_once('../database/database.php');
  
 // Define variables and initialize with empty values
 $username = $password = $confirm_password = "";
